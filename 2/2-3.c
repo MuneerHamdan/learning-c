@@ -8,6 +8,7 @@ int main(void) {
   // v = (4/3)(pi)(r^3)
 
   int r = 1;
+  printf("what radius? \n");
   fscanf(stdin, "%d", &r);
   int rr = r * r, rrr = rr * r;
   const double pi = 3.14159265358979;

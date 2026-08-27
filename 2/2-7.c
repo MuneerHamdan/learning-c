@@ -14,6 +14,7 @@ int main(void) {
   printf("Enter a dollar amount: ");
   int x;
   fscanf(stdin, "%d", &x);
+<<<<<<< HEAD
   int a = 0, b = 0, c = 0, d = 0, e = 0;
   int f = 0;
   int g = 0;
@@ -34,5 +35,25 @@ int main(void) {
   printf("%d ", f);
   printf("%d ", g);
   printf("%d ", h);
+=======
+  int a;
+  int b;
+  a = x / 20;
+  printf("%d ", a);
+  a = x % 20;
+  printf("%d ", a);
+  a = a / 10;
+  printf("%d ", a);
+  a = a % 10;
+  printf("%d ", a);
+  a = a / 5;
+  printf("%d ", a);
+  a = a % 5;
+  printf("%d ", a);
+  a = a / 1;
+  printf("%d ", a);
+  a = a % 1;
+  printf("%d ", a);
+>>>>>>> 59f1df0 (chapter 2)
   return 0;
 }
